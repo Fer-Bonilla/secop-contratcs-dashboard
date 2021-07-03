@@ -12,6 +12,23 @@ This is project to build an advanced tool to analyze the goverment public contra
 
 # Public databases used from datosbiertos.gov.co Colombian portal
 
+SECOP (Sistema Electrónico para la Contratación Pública) is a platform that contains information related to public expenses in Colombia. This information is publicly available and can be found at the webpage of the Ministry of Information and Communication. SECOP is segmented in two different versions depending on the information retrieval methodology of the platform: 
+ - offline retrieval (SECOP 1) and online retrieval (SECOP 2).
+
+SECOP 1 refers to a non automated platform for transaction process documentation. Most of the information from SECOP 1 comes from pdf files manually uploaded to the platform. On the other hand, SECOP 2 works as an online platform. The main advantage of SECOP 2 with respect to SECOP 1 is the information availability on a structured manner, instead of separated files with an unstandardized structure, SECOP 2 enables the information to the general public.
+Each row in the SECOP dataset corresponds to a public process and the different columns allow to determine different characteristics for each of those process: 
+ - textual description of the process
+ - total cost
+ - duration of the process
+ - among other variables of interest. 
+ - 
+Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection: 
+
+ - SECOP 1 has 6.140.000 processes and SECOP 2 has 383.000 processes. 
+ - Both sources of information contain, among others, the following variables of interest:
+    - Textual description of the process. Important for latent economic sector identification of the processes based on text analysis.
+    - Total cost of the process. Input variable for determining the amount invested for each economic sector mentioned in the contract.
+    - Location of the process. Municipality where the process takes place.
 
 
 # Web scraping tools for extended information
