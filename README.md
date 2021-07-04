@@ -19,13 +19,9 @@ The main source of data for this projec is the SECOP (versions 1 and 2). SECOP (
 
 SECOP 1 refers to a non automated platform for transaction process documentation. Most of the information from SECOP 1 comes from pdf files manually uploaded to the platform. On the other hand, SECOP 2 works as an online platform. The main advantage of SECOP 2 with respect to SECOP 1 is the information availability on a structured manner, instead of separated files with an unstandardized structure, SECOP 2 enables the information to the general public.
 
-You can explore the SECOP platform in the website
+You can explore the SECOP platform in the website [Portal Colombia compra](https://colombiacompra.gov.co/)
 
-[Portal Colombia compra](https://colombiacompra.gov.co/)
-
-Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection. You can donwload the data drom SECOP1 or SECOP2 or the consolidated info from datos.gov.co goverment portal 
-
- [Consolidated data](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
+Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection. You can donwload the data drom SECOP1 or SECOP2 or the consolidated info from datos.gov.co goverment portal [Consolidated data](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
 
 ![image](https://user-images.githubusercontent.com/33405407/124367544-f0a51100-dc0c-11eb-846a-e1fb7db5db0e.png)
 
