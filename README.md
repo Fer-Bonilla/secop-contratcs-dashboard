@@ -15,30 +15,34 @@ With this project I explore the analysis of the public government biding process
 
 # Public databases used from datosbiertos.gov.co Colombian portal
 
-The main source of data for this projec is the SECOP (versions 1 and 2). SECOP (Sistema Electrónico para la Contratación Pública) is a platform that contains information related to public expenses in Colombia. This information is publicly available and can be found at the webpage of the Ministry of Information and Communication. SECOP is segmented in two different versions depending on the information retrieval methodology of the platform: 
-
- - offline retrieval (SECOP 1) and online retrieval (SECOP 2).
+The main source of data for this projec is the SECOP (versions 1 and 2). SECOP (Sistema Electrónico para la Contratación Pública) is a platform that contains information related to public expenses in Colombia. This information is publicly available and can be found at datos.gov.co , the open data goverment portal.
 
 SECOP 1 refers to a non automated platform for transaction process documentation. Most of the information from SECOP 1 comes from pdf files manually uploaded to the platform. On the other hand, SECOP 2 works as an online platform. The main advantage of SECOP 2 with respect to SECOP 1 is the information availability on a structured manner, instead of separated files with an unstandardized structure, SECOP 2 enables the information to the general public.
-Each row in the SECOP dataset corresponds to a public process and the different columns allow to determine different characteristics for each of those process: 
- - textual description of the process
- - total cost
- - duration of the process
- - among other variables of interest. 
- - 
-Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection: 
 
- - SECOP 1 has 6.140.000 processes and SECOP 2 has 383.000 processes. 
- - Both sources of information contain, among others, the following variables of interest:
-    - Textual description of the process. Important for latent economic sector identification of the processes based on text analysis.
-    - Total cost of the process. Input variable for determining the amount invested for each economic sector mentioned in the contract.
-    - Location of the process. Municipality where the process takes place.
+You can explore the SECOP platform in the website
 
-Data is avaliable in the datos.gov.co goverment portal 
+[Portal Colombia compra](https://colombiacompra.gov.co/)
 
-[Consolidated data](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
+Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection. You can donwload the data drom SECOP1 or SECOP2 or the consolidated info from datos.gov.co goverment portal 
+
+ [Consolidated data](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
 
 ![image](https://user-images.githubusercontent.com/33405407/124367544-f0a51100-dc0c-11eb-846a-e1fb7db5db0e.png)
+
+
+# Exploratory data analysis
+
+There are some exploration to do:
+
+###  Data in the SECOP1 dataset
+
+###  Data in the SECOP2 dataset
+
+###  Data in the consolidated dataset
+
+###  Data in the SECOP webpage
+
+The EDA notebook for the process is [link to EDA notebook]
 
 
 # Web scraping tools for extended information
