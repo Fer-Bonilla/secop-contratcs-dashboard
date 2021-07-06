@@ -23,8 +23,6 @@ You can explore the SECOP platform in the website [Portal Colombia compra](https
 
 Those processes may or may not be related to a contract with the government and they may be finished or ongoing. The database is segmented depending on the public expenses platform utilized for data collection. You can donwload the data drom SECOP1 or SECOP2 or the consolidated info from datos.gov.co goverment portal [Consolidated data](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
 
-![image](https://user-images.githubusercontent.com/33405407/124367544-f0a51100-dc0c-11eb-846a-e1fb7db5db0e.png)
-
 
 # Exploratory data analysis
 
@@ -32,11 +30,30 @@ There are some exploration to do:
 
 ###  Data in the SECOP1 dataset
 
+Data source: [https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-I/xvdy-vvsk](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-I/xvdy-vvsk)
+
+![image](https://user-images.githubusercontent.com/33405407/124547521-20a50d80-dde1-11eb-8602-7e1bfcde45f2.png)
+
 ###  Data in the SECOP2 dataset
+
+Data source: [https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-II-Procesos-de-Contrataci-n/p6dx-8zbt](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-II-Procesos-de-Contrataci-n/p6dx-8zbt)
+
+![image](https://user-images.githubusercontent.com/33405407/124547727-6d88e400-dde1-11eb-8ca2-03c2289c7cdf.png)
+
 
 ###  Data in the consolidated dataset
 
+Data source: [https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd](https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rpmr-utcd)
+
+![image](https://user-images.githubusercontent.com/33405407/124546293-40d3cd00-dddf-11eb-8beb-bb8c000d9f62.png)
+
+
 ###  Data in the SECOP webpage
+
+![image](https://user-images.githubusercontent.com/33405407/124548260-54346780-dde2-11eb-8be4-8967b6b24fde.png)
+
+Site link. [https://colombiacompra.gov.co/secop-ii](https://colombiacompra.gov.co/secop-ii)
+
 
 The EDA notebook for the process is [link to EDA notebook]
 
