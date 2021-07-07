@@ -55,7 +55,7 @@ Data source: [https://www.datos.gov.co/Gastos-Gubernamentales/SECOP-Integrado/rp
 Site link. [https://colombiacompra.gov.co/secop-ii](https://colombiacompra.gov.co/secop-ii)
 
 
-The EDA notebook for the process is [link to EDA notebook]
+The EDA notebook for the process is on: [link to EDA notebook](https://github.com/Fer-Bonilla/secop-contratcs-dashboard/blob/main/dataset_summary.ipynb)
 
 
 # Web scraping tools for extended information
