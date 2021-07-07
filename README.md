@@ -60,6 +60,13 @@ The EDA notebook for the process is on: [link to EDA notebook](https://github.co
 
 # Web scraping tools for extended information
  
+There is more information about contracts that is not available in the public databases. For example de reference documents, the contract document, and more detail than we can review on the SECOP public website. This is an example of a detailed contract view obtained from the website:
+
+![image](https://user-images.githubusercontent.com/33405407/124717666-33d7dc00-deba-11eb-97fa-5535aa1c2428.png)
+
+To obtain the enriched data we need to build a robust web scraping app.
+
+The Webscraping tool notebook is on: [link to Webscraping tool notebook](https://github.com/Fer-Bonilla/secop-contratcs-dashboard/blob/main/dwebscraper.ipynb)
 
 
 # Text analysis to identify general topics in the contract’s description using BETO (Spanish BERT Model) 
