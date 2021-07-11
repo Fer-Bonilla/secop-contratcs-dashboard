@@ -69,9 +69,12 @@ To obtain the enriched data we need to build a robust web scraping app.
 The Webscraping tool notebook is on: [link to Webscraping tool notebook](https://github.com/Fer-Bonilla/secop-contratcs-dashboard/blob/main/dwebscraper.ipynb)
 
 
-# Text analysis to identify general topics in the contract’s description using BETO (Spanish BERT Model) 
+# Topics modeling for contracts information
  
- 
+In this notebook we developed a text analysis using classical model pipelines for Natural Language Processing. The main analytics model is Topic analysis where we want to find general topics from the text corpus. Text correspond to contracts description from SECOP database. 
+
+Notebokk for latent topics analysis: [link to Webscraping tool notebook](https://github.com/Fer-Bonilla/secop-contratcs-dashboard/blob/main/dwebscraper.ipynb)
+
  
 # Dash development for visualization and analysis (Dash + Python)
  
